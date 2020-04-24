@@ -12,7 +12,6 @@
 #include "../include/Road.h"
 #include "../include/Wall.h"
 #include "../include/Cube.h"
-//#include "House.h"
 
 // Objet Camera
 Camera *cam = new Camera();
@@ -281,7 +280,7 @@ int main(int argc, char **argv)
     glutInitDisplayMode(GLUT_DEPTH | GLUT_DOUBLE | GLUT_RGBA);
     glutInitWindowPosition(100,100);
     glutInitWindowSize(320,320);
-    glutCreateWindow("Implémentation :: Textures");
+    glutCreateWindow("Robot");
 
     /** FONCTIONS GLUT **/
     glutDisplayFunc(renderScene);

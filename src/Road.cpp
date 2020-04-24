@@ -14,7 +14,7 @@ Road::Road()
 
 void Road::draw(double sunAngle)
 {
-    /*glEnable(GL_LIGHTING);
+    glEnable(GL_LIGHTING);
     glEnable(GL_LIGHT2);
 
     this->sunTexture = SOIL_load_OGL_texture("img/sun.jpg",SOIL_LOAD_AUTO,SOIL_CREATE_NEW_ID,SOIL_FLAG_INVERT_Y);
@@ -33,5 +33,5 @@ void Road::draw(double sunAngle)
         glLightfv(GL_LIGHT2, GL_DIFFUSE, this->lightColor);
         glLightfv(GL_LIGHT2, GL_POSITION, this->lightPos);
         glPopMatrix();
-    glPopMatrix();*/
+    glPopMatrix();
 }

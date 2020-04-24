@@ -678,12 +678,12 @@ void Robot::robotMove()
 
         if(this->upLeg)
         {
-            this->rLegs -= 1;
+            this->rLegs -= 0.2;
         }
 
         if(this->downLeg)
         {
-            this->rLegs+=1;
+            this->rLegs+=0.2;
         }
 
 
